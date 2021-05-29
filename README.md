@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# saidgeek.land
 
-## Getting Started
+This is my page blog developing from of zero.
 
-First, run the development server:
+## Definitions
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Commits
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For commits i use the [commit conventions](https://www.conventionalcommits.org/en/v1.0.0/), for this propousal use the next modules:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [@commitlint/config-conventional](https://www.npmjs.com/package/@commitlint/config-conventional)
+- [@commitlint-cli](https://www.npmjs.com/package/@commitlint/cli)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Commit types
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **feat**: A new feature.
+- **fix**: A bug fixing.
+- **docs**: Documentation only changes
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc).
+- **refactor**: A code change that neither fixes a bug nor adds a feature.
+- **test**: Adding missing tests or correcting existing tests.
+- **ci**: Changes to our CI configuration files and scripts.
+- **chore**: Update grunt tasks. No production code change.
 
-## Learn More
+### Atomic design
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Atoms**: A atom is a component composed to one atom or HTML tags elements.
+- **molecules**: A molecule is a component composed to two or more atoms.
+- **organisms**: A organims is a component composed to two or more molecules.
