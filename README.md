@@ -24,6 +24,18 @@ For commits i use the [commit conventions](https://www.conventionalcommits.org/e
 
 ### Atomic design
 
-- **Atoms**: A atom is a component composed to one atom or HTML tags elements.
-- **molecules**: A molecule is a component composed to two or more atoms.
-- **organisms**: A organims is a component composed to two or more molecules.
+- **Atoms**: A *atom* is a component composed to one atom or HTML tags elements.
+- **molecules**: A *molecule* is a component composed to two or more atoms.
+- **organisms**: A *organims* is a component composed to two or more molecules.
+
+### Lintingand formatting code
+
+For lint code use a `Eslint` and for formatting code use `prettier`, this modules use for this:
+
+- @typescript-eslint/eslint-plugin
+- @typescript-eslint/parser
+- eslint
+- eslint-config-prettier
+- eslint-plugin-prettier
+- eslint-plugin-react
+- prettier
