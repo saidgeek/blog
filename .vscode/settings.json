@@ -3,6 +3,7 @@
     "source.fixAll.eslint": true
   },
   "conventionalCommits.scopes": [
-    "storybook"
+    "storybook",
+    "atom"
   ]
 }
