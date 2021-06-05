@@ -4,6 +4,7 @@
   },
   "conventionalCommits.scopes": [
     "storybook",
-    "atom"
+    "atom",
+    "Layouts"
   ]
 }
