@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import Tokens from '../../../tokens';
+import { theme } from '../../../tokens';
 
 export type LinkProps = {
   children: string;
@@ -8,12 +8,13 @@ export type LinkProps = {
 };
 
 const Button = styled.button`
-  color: ${Tokens.color.white};
+  color: ${theme.color('muted')};
   cursor: pointer;
-  font-size: 24px;
-  font-variant: Light;
-  border: 0;
-  background: transparent;
+  font-family: ${theme.fontFamily('sans')};
+  font-size: ${theme.fontSize('lg')};
+  font-weight: ${theme.fontWeight('light')};
+  border: ${theme.borderWidth('none')};
+  background: ${theme.color('transparent')};
 `;
 
 const Link: FC<LinkProps> = ({ onClick, children }) => (
