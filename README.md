@@ -42,5 +42,5 @@ For lint code use a `Eslint` and for formatting code use `prettier`, this module
 
 ### Styles
 
-- Create tokens based in this [article](https://www.erikverweij.dev/blog/manage-design-tokens-with-typescript-and-styled-components/) 
+- Create tokens based in this [article](https://www.erikverweij.dev/blog/manage-design-tokens-with-typescript-and-styled-components/)
 - Use `rem` in sizes ([rem calculate](https://offroadcode.com/rem-calculator/))
