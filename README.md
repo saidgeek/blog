@@ -28,7 +28,7 @@ For commits i use the [commit conventions](https://www.conventionalcommits.org/e
 - **molecules**: A *molecule* is a component composed to two or more atoms.
 - **organisms**: A *organims* is a component composed to two or more molecules.
 
-### Lintingand formatting code
+### Linting and formatting code
 
 For lint code use a `Eslint` and for formatting code use `prettier`, this modules use for this:
 
@@ -39,3 +39,8 @@ For lint code use a `Eslint` and for formatting code use `prettier`, this module
 - eslint-plugin-prettier
 - eslint-plugin-react
 - prettier
+
+### Styles
+
+- Create tokens based in this [article](https://www.erikverweij.dev/blog/manage-design-tokens-with-typescript-and-styled-components/) 
+- Use `rem` in sizes ([rem calculate](https://offroadcode.com/rem-calculator/))
