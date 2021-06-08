@@ -5,6 +5,8 @@
   "conventionalCommits.scopes": [
     "storybook",
     "atom",
-    "Layouts"
+    "molecule",
+    "layout",
+    "tokens"
   ]
 }
