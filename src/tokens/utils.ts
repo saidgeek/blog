@@ -25,3 +25,12 @@ export const createSelector = <T extends (...args: any) => any>(getter: T) => {
 
   return select;
 };
+
+export const createPartialGetter = <T extends (...args: any) => any>(
+  getter: T,
+  props: ThemeProps
+) => {
+  return function omit(...args: OmitThemeProps<Parameters<T>>): ReturnType<T> {
+    return getter(...args, props);
+  };
+};
