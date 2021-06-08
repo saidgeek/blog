@@ -3,7 +3,7 @@ import Link, { LinkProps } from './Link';
 import { createTemplate } from '../../../utils/storybook';
 
 export default {
-  title: 'atoms/Link',
+  title: 'Atom/Link',
   component: Link,
   args: {
     children: 'Home',

@@ -3,7 +3,7 @@ import { createTemplate } from '../../../utils/storybook';
 import { Meta } from '@storybook/react';
 
 export default {
-  title: 'atoms/logo',
+  title: 'Atom/Logo',
   component: Logo,
   argTypes: {
     size: {

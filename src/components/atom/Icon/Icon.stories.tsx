@@ -4,7 +4,7 @@ import IconComponents from './Assets';
 import { createTemplate } from '../../../utils/storybook';
 
 export default {
-  title: 'Atoms/Icon',
+  title: 'Atom/Icon',
   component: Icon,
   argTypes: {
     name: {

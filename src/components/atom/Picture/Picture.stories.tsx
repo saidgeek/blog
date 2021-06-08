@@ -2,7 +2,7 @@ import Picture, { PictureProps } from './Picture';
 import { createTemplate } from '../../../utils/storybook';
 
 export default {
-  title: 'atoms/picture',
+  title: 'Atom/Picture',
   component: Picture,
 };
 
