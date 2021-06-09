@@ -3,7 +3,7 @@ import Picture from '../Picture';
 
 export const Sizes = {
   md: { width: '200px', height: 'auto' },
-  sm: { width: '36px', height: 'auto' },
+  sm: { width: '130px', height: 'auto' },
 } as const;
 
 export type LogoProps = {
